@@ -1,0 +1,81 @@
+.img1 {		/*imagen del header*/
+	width: 60%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+a{			/*Navegacion*/
+	display: inline-block;
+	margin-left: 10%;
+	padding-top: 5%;
+	text-decoration: none;
+	color:#838383 !important;
+	font-size: 12px;
+}
+.bk1{		/*fondo gris*/
+	background-color: gray;
+	padding-bottom: 5%;
+}
+.p1{		/*Letras grandes blnacas lado izq del usuario*/
+	color:white;
+	font-size: 50px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.p2{		/*Letras pequeñas blancas*/ 
+	color:white;
+	font-size: 15px;
+	line-height: initial;
+	margin-bottom: 5%;
+}
+.letras{		/*Contiene las letras blancas*/
+	width: 70%;
+}
+#right-well { 	/*Alineacion de la caja de datos*/
+	text-align: center;
+	color: white;
+	margin-top: 15%;
+	width: 60%;
+}
+
+.in1{		/*Cajas dentro de well*/
+	margin:5% 0%;
+	width:100%;
+}
+.mg1 {	
+	margin: 5% 0%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+span{
+	color:blue;
+}
+.p3{		/*Tamaño de fuente del texto del footer*/
+	font-size: 15px;
+}
+
+/*..................................CAMBIOS PARA RESPONSIVE........................................*/
+@media (min-width:535px) and (max-width: 900px){
+	.letras{
+		width: 100%;
+		margin: auto;
+	}
+	#right-well {
+		text-align: center;
+		color: white;
+		margin: auto;
+		width: 100%;
+		background-color: #908F8F !important;
+	}
+	.img1 {
+	margin:auto;	
+	border:1px solid #4E9509;
+	border-radius: 5px;
+	}
+	.bk1{		/*fondo gris*/
+	background-color: #0E0E0E;
+	}
+	.mg1 {	
+	margin: 5% 5%;
+	}
+}
